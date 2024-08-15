@@ -1,0 +1,65 @@
+@media screen and (max-width: 576px) {
+
+    .nav-container {
+        box-shadow: none;
+    }
+
+    .nav-main {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .nav-right {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .header-main > div {
+        margin-top: 50px;
+        flex-direction: column-reverse;
+    }
+
+    .gamer-container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .gamer-right {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .gamer-right > p {
+        width: 90%;
+    }
+
+
+
+    .online-main {
+        grid-template-areas: "a" "b" "c" "d";
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .Watch-now {
+        top: 40%;
+        left: 35%;
+    }
+
+    .play-container {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .play-left {
+        width: 80%;
+        text-align: center;
+    }
+    
+    .play-right {
+        width: 80%;
+        margin-left: 150px;
+    }
+}
